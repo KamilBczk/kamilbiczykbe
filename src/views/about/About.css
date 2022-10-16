@@ -1,0 +1,129 @@
+.about-spec-wrapper {
+    position: relative;
+}
+
+.about-spec-grid {
+    margin-top: 50px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5%;
+    width: 100%;
+}
+
+.about-spec-grid .about-spec-elem {
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    transition: .33s;
+    position: relative;
+}
+
+.about-spec-grid .about-spec-elem:nth-child(1) {
+    background: linear-gradient(45deg, rgba(82, 193, 179, 0.4), rgba(157, 190, 212, 0.4));
+}
+
+.about-spec-grid .about-spec-elem:nth-child(2) {
+    background: linear-gradient(0, rgba(207, 45, 78, 0.4), rgba(82, 66, 225, 0.4));
+}
+
+.about-spec-grid .about-spec-elem:nth-child(3) {
+    background: linear-gradient(-45deg, rgba(207, 64, 89, 0.4), rgba(211, 139, 54, 0.4));
+}
+
+.about-spec-grid .about-spec-elem:hover {
+    border-radius: 35px;
+}
+
+.about-spec-elem .about-spec-img {
+    position: relative;
+    height: 200px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: .33s;
+}
+
+.about-spec-elem:hover .about-spec-img {
+    height: 150px;
+    top: 40%;
+}
+
+.about-spec-elem .about-spec-img img {
+    height: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about-spec-elem .about-spec-text {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10%;
+    height: 29px;
+    transition: .50s;
+    opacity: 0;
+}
+
+.about-spec-elem:hover .about-spec-text {
+    opacity: 1;
+}
+
+
+.about-spec-elem .about-spec-text h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+
+.about-tech-wrapper .about-tech-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 70px;
+    grid-row-gap: 50px;
+    margin-top: 100px;
+}
+
+.about-tech-wrapper .about-tech-grid:nth-child(4) {
+    margin-top: 50px;
+}
+
+.about-tech-grid .about-tech-grid-elem {
+    height: 70px;
+}
+
+.about-tech-grid-elem .tech-icon {
+    height: 70px;
+    width: 70px;
+    position: relative;
+    float: left;
+}
+
+.tech-sep {
+    width: 100%;
+    height: 3px;
+    background-color: #F1F1F1;
+    margin-top: 50px;
+}
+
+.about-tech-grid-elem .tech-icon img {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.about-tech-grid-elem .tech-text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: calc(2% + 70px);
+    transition: .33s;
+}
+
+.about-tech-grid-elem:hover .tech-text {
+    padding-left: calc(5% + 70px);
+}
+

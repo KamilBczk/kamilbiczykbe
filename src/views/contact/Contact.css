@@ -1,0 +1,119 @@
+.pop-up-contact-form {
+  position: fixed;
+  top: calc(-150px);
+  left: 50%;
+  transform: translate(-50%);
+  background-color: #f1f1f1;
+  padding: 25px 50px;
+  border-radius: 5px;
+  z-index: 100;
+  transition: .5s;
+  overflow: hidden;
+}
+
+.pop-up-contact-form::after {
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  content: ' ';
+  background-color: #155724;
+  left: 0;
+  bottom: 0;
+  transition: 3.8s;
+}
+
+.popup-active .pop-up-contact-form {
+  top: 5px;
+}
+
+.popup-active .pop-up-contact-form::after {
+  left: calc(-100% - 15px);
+}
+
+.contact-form {
+  max-width: 60%;
+}
+
+.form {
+  /* background-color: aliceblue; */
+  margin-top: 50px;
+}
+
+.form label {
+  display: block;
+}
+
+.form input {
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  width: 100%;
+  padding: 5px 0 5px;
+  font-size: 1.25rem;
+  border-bottom: 2px solid #000000;
+  margin-top: 10px;
+  transition: .33s;
+}
+
+.form input:focus {
+  border-bottom: 2px solid #0099ff;
+
+}
+
+.form .form-elem {
+  margin-top: 30px;
+}
+
+.form .form-50 {
+  width: 45%;
+  float: left;
+}
+
+.form .form-50:nth-child(1) {
+  margin-left: 2.5%;
+}
+
+.form .form-50:nth-child(2) {
+  margin-left: 5%;
+}
+
+.form .form-100 {
+  margin: 0 2.5%;
+}
+
+.contact-info .contact-box {
+  width: 60%;
+  margin-top: 50px;
+  height: 350px;
+  /* background-color: red; */
+}
+
+.contact-info .contact-box ul {
+  list-style: none;
+}
+
+.contact-info .contact-box ul li {
+  position: relative;
+  clear: both;
+  height: 70px;
+}
+
+.contact-info .contact-box ul li .contact-box-icon {
+  width: 70px;
+  height: 70px;
+  float: left;
+  position: relative;
+}
+
+.contact-info .contact-box ul li .contact-box-icon img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-info .contact-box ul li span {
+  position: relative;
+  top: 20px;
+  margin-left: 20px;
+}

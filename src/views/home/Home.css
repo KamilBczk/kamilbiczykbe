@@ -1,0 +1,48 @@
+:root {
+    --color-blue: #0099ff;
+}
+
+.first-home-wrapper {
+    width: 100%;
+    height: calc(600px - 60px);
+    position: relative;
+}
+
+.first-home-wrapper .container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.first-home-wrapper .home-wrapper {
+    margin: 0 5%;
+    position: relative;
+}
+
+.first-home-wrapper .big-title-m {
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+.first-home-wrapper .big-home-text {
+    float: left;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.first-home-wrapper .big-home-photo {
+    position: relative;
+    float: right;
+    margin-right: 10%;
+}
+
+.first-home-wrapper .big-home-photo img {
+    right: 0;
+    max-height: 400px;
+}
+
+.second-home-wrapper.wrapper {
+    margin-top: 100px;
+}
+
