@@ -4,6 +4,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+#root {
+  min-width: 1200px;
+}
+
 body::after {
   position: absolute;
   width: 1px;
@@ -280,4 +284,33 @@ a {
 
 .l-project-left .l-p-image-box, .l-project-right .l-p-text-box {
   float: left;
+}
+
+@media screen and (max-width: 1500px) {
+  body {
+      background-color: darksalmon;
+  }
+
+  .first-home-wrapper .home-wrapper {
+      margin: 0;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  body {
+      background-color: azure;
+  }
+
+  .first-home-wrapper .big-home-photo {
+      margin: 0;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+  body {
+    background-color: darkgrey;
+  }
 }

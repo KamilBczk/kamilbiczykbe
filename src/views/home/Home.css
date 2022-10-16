@@ -60,9 +60,14 @@
     body {
         background-color: azure;
     }
-    
+
     .first-home-wrapper .big-home-photo {
         margin: 0;
     }
 }
 
+@media screen and (max-width: 1200px) {
+    body {
+        background-color: darkgrey;
+    }
+}
