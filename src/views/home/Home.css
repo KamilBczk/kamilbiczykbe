@@ -46,3 +46,23 @@
     margin-top: 100px;
 }
 
+@media screen and (max-width: 1500px) {
+    body {
+        background-color: darksalmon;
+    }
+
+    .first-home-wrapper .home-wrapper {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    body {
+        background-color: azure;
+    }
+    
+    .first-home-wrapper .big-home-photo {
+        margin: 0;
+    }
+}
+
