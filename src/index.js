@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import './index.css';
+
 import Home from './views/home/Home';
 import About from './views/about/About';
 import Portfolio from './views/portfolio/Portfolio';
