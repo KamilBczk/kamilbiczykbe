@@ -69,3 +69,19 @@
         max-height: 200px;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .first-home-wrapper .big-home-photo {
+        position: absolute;
+        float: none;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -200px;
+    }
+    .first-home-wrapper .big-home-text {
+        position: relative;
+        float: none;
+        top: 0;
+        transform: none;
+    }
+}

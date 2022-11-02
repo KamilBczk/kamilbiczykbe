@@ -27,7 +27,7 @@ function App() {
         <div className='container'>
           <h2 className='title-m'>Enchanté<span className='blue-text'>.</span></h2>
           <div className='text-box'>
-            <p className='p-m'>Développeur front passionné depuis son plus jeune âge. Durant mon parcour j’ai été amené a travaillé avec des clients ce qui m’a aidé à améliorer ma capcité d’adaptation. Ayant toujours voulu travaillé dans ce domaine je suis allé à 42 pensant que cela m’aiderait dans ma recherche d’emploi. Entre dépassement de soi, programmation et très belle rencontres, j'y ai découvert un petit monde parallèle très passionnant. Néamoins en parallèle je faisais des études de marketing, car mon rêve est de fonder une agence digitale et marketing.</p>
+            <p className='p-m'>Développeur front passionné depuis mon plus jeune âge. Durant mon parcours j’ai été amené à travailler avec des clients ce qui m’a aidé à améliorer ma capacité d’adaptation. Ayant toujours voulu travailler dans ce domaine, je suis allé à 42 en pensant que cela m’aiderait dans ma recherche d’emploi. Entre dépassement de soi, de programmation et de très belles rencontres, j'ai découvert un petit monde parallèle très passionnant. Je faisais en complément de cela des études de marketing, car mon rêve est de fonder une agence digitale et marketing.</p>
           </div>
           <div className='btn-blue m-t-paragraph'>
             <a href="/about">Plus sur moi</a>
