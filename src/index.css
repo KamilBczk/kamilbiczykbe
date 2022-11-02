@@ -339,4 +339,8 @@ a {
   .first-home-wrapper .big-home-photo img {
       max-height: 200px;
   }
+
+  .text-box {
+    max-width: 80%;
+  }
 }

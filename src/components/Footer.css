@@ -57,4 +57,10 @@
   color: #0099FF;
 }
 
+@media screen and (max-width: 730px) {
+  .footer .footer-nav ul li {
+    margin-left: 0;
+  }
+}
+
 
