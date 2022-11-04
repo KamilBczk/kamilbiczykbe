@@ -76,12 +76,21 @@
         float: none;
         left: 50%;
         transform: translateX(-50%);
-        top: -200px;
+        top: -250px;
     }
     .first-home-wrapper .big-home-text {
         position: relative;
         float: none;
         top: 0;
         transform: none;
+    }
+    .first-home-wrapper {
+        padding-top: 250px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .first-home-wrapper {
+        height: calc(700px - 60px);
     }
 }
