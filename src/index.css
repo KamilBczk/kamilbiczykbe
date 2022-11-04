@@ -307,6 +307,16 @@ a {
   }
 }
 
+@media screen and (max-width: 1300px) {
+  .l-p-image-box {
+    width: 50%;
+  }
+
+  .l-p-text-box {
+    width: 50%;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   body {
     background-color: darkgrey;
@@ -328,6 +338,28 @@ a {
 
   .big-title-m {
     font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .l-project-left .l-p-image-box, .l-project-right .l-p-text-box {
+    float: none;
+  }
+  .l-p-image-box {
+    width: 100%;
+    height: 350px;
+  }
+  .l-project-left .l-p-text-box, .l-project-right .l-p-image-box {
+    float: none;
+  }
+  .l-projects-elem {
+    height: auto;
+  }
+  .l-p-text-box {
+    width: 100%;
+  }
+  .l-p-text-box .company-logo {
+    display: none;
   }
 }
 
