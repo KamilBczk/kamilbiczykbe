@@ -39,3 +39,9 @@
 .blog-grid .blog-grid-elem-container .desc .text-right {
   float: right;
 }
+
+@media screen and (max-width: 800px) {
+  .blog-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
