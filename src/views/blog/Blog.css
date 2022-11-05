@@ -45,3 +45,9 @@
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
+@media screen and (max-width: 650px) {
+  .blog-grid {
+    margin: 0;
+  }
+} 
