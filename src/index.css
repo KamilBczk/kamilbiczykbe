@@ -10,13 +10,13 @@ body {
 }
 
 body::after {
-  position: absolute;
+  /* position: absolute;
   width: 1px;
   height: 200vh;
   left: 50%;
   top: 0;
   background-color: red;
-  content: ' ';
+  content: ' '; */
 }
 
 * {
@@ -48,12 +48,12 @@ a {
 }
 
 .container::after, .container::before {
-  position: absolute;
+  /* position: absolute;
   width: 1px;
   height: 100vh;
   background-color: red;
   content: ' ';
-  top: 0;
+  top: 0; */
 }
 
 .container::after {
