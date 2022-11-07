@@ -385,4 +385,8 @@ a {
   .big-title-m {
     font-size: 3.5rem;
   }
+  
+  .wrapper {
+    margin-top: 250px;
+  }
 }

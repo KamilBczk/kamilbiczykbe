@@ -95,7 +95,7 @@ function Contact() {
                 <li className='p-m'><div className='contact-box-icon'><Socials width="50" height="50" icon="me-blue" /></div><span>Kamil Biczyk</span></li>
                 <li className='p-m'><div className='contact-box-icon'><Socials width="50" height="50" icon="mail-blue" /></div><span>info@kamilbiczyk.be</span></li>
                 <li className='p-m'><div className='contact-box-icon'><Socials width="50" height="50" icon="phone-blue" /></div><span>+32 (0)484 446 993</span></li>
-                <li className='p-m'><div className='contact-box-icon'><Socials width="50" height="50" icon="ping-blue" /></div><span>10 Avenue Docteur Zamenhof, 1070 Anderlecht, Bruxelles</span></li>
+                <li className='p-m'><div className='contact-box-icon'><Socials width="50" height="50" icon="ping-blue" /></div><span>10 Avenue Docteur Zamenhof, Bruxelles</span></li>
               </ul>
             </div>
           </div>

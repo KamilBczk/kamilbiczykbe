@@ -30,7 +30,7 @@
 
 .footer .footer-nav {
   text-align: center;
-  margin: 100px 0 30px;
+  margin: 100px 0 50px;
 }
 
 .footer .footer-nav ul {
@@ -60,6 +60,10 @@
 @media screen and (max-width: 730px) {
   .footer .footer-nav ul li {
     margin-left: 0;
+  }
+
+  .footer .wrapper {
+    margin-top: 250px;
   }
 }
 

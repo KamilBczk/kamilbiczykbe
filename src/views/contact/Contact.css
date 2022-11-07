@@ -82,7 +82,7 @@
 }
 
 .contact-info .contact-box {
-  width: 60%;
+  width: 100%;
   margin-top: 50px;
   height: 350px;
   /* background-color: red; */
@@ -116,4 +116,10 @@
   position: relative;
   top: 20px;
   margin-left: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .contact-form {
+    max-width: 80%;
+  }
 }
