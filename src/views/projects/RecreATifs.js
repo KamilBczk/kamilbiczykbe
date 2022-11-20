@@ -35,6 +35,19 @@ function RecreATifs() {
           </div>
         </div>
       </div>
+      <div className='wrapper'>
+        <div className='container'>
+          <h2 className='title-m text-center'>Vous avez apprecié<span className='blue-text'> ?</span></h2>
+          <div className='m-t-50'>
+            <div className='btn-blue m-t-paragraph'>
+              <div className='btn-center'>
+                <a target="_blank" href="https://www.behance.net/gallery/153560847/Brand-identity-Hairdresser-Rcr-a-tifs">Ce projet sur Behance</a>
+                <a href="/project/greedy-glide">Projet suivant</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
