@@ -296,8 +296,8 @@
         right: auto;
         top: auto;
         left: 50%;
-        transform: translateX(-50%);
-        bottom: 0;
+        transform: translate(-50%, 50%);
+        /* bottom: 0; */
     }
 
     .header-nav .container {
