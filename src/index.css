@@ -288,20 +288,12 @@ a {
 }
 
 @media screen and (max-width: 1500px) {
-  body {
-      background-color: darksalmon;
-  }
-
   .first-home-wrapper .home-wrapper {
       margin: 0;
   }
 }
 
 @media screen and (max-width: 1350px) {
-  body {
-      background-color: azure;
-  }
-
   .first-home-wrapper .big-home-photo {
       margin: 0;
   }
@@ -318,20 +310,12 @@ a {
 }
 
 @media screen and (max-width: 1200px) {
-  body {
-    background-color: darkgrey;
-  }
-
   .container {
     width: 90%;
   }
 }
 
 @media screen and (max-width: 1100px) {
-  body {
-    background-color: bisque;
-  }
-
   .big-title-xl {
     font-size: 6rem;
   }
@@ -364,10 +348,6 @@ a {
 }
 
 @media screen and (max-width: 900px) {
-  body {
-    background-color: #FFFFFF;
-  }
-
   .first-home-wrapper .big-home-photo img {
       max-height: 200px;
   }
