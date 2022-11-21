@@ -12,7 +12,7 @@ function Portfolio() {
 			<LastProjects />
       <div className='wrapper'>
         <div className='container'>
-					<h2 className='title-m'>Tout mes projets<span className='blue-text'>.</span></h2>
+					<h2 className='title-m'>Tous mes projets<span className='blue-text'>.</span></h2>
           <div className='project-grid'>
             <div className='project-grid-elem project-grid-title'>
               <p className='p-m'>#</p>

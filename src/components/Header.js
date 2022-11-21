@@ -80,17 +80,12 @@ function Header() {
 												</a>
 											</li>
 											<li className='nav-socials-li'>
-												<a href="#" target="_blank">
-													<Socials icon="twitter-white" />
-												</a>
-											</li>
-											<li className='nav-socials-li'>
-												<a href="#" target="_blank">
+												<a href="https://www.linkedin.com/in/kamil-biczyk" target="_blank">
 													<Socials icon="linkedin-white" />
 												</a>
 											</li>
 											<li className='nav-socials-li'>
-												<a href="#" target="_blank">
+												<a href="https://www.instagram.com/kamil_bczk/" target="_blank">
 													<Socials icon="instagram-white" />
 												</a>
 											</li>

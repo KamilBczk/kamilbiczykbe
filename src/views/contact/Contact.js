@@ -42,7 +42,7 @@ function Contact() {
           <div className='container'>
 					  <h2 className='title-m'>Formulaire<span className='blue-text'>.</span></h2>
             <div className='text-box'>
-              <p className='p-m'>Remplissez le formulaire de contact ci-dessous pour toutes demandes (projet, design, open source, question, curiosté, ...). Je suis très souvent pris par le temps mais j'essaye de tenir des délais de réponse de moins de 48h. Le numéro de téléphone n'est pas obligatoire mais j'aime appeler afin de discuter de vive voix!</p>
+              <p className='p-m'>Remplissez le formulaire de contact ci-dessous pour toutes demandes (projet, design, open source, questions, curiosité,...). Je suis très souvent pris par le temps, mais j'essaye de tenir des délais de réponse de moins de 48h. Le numéro de téléphone n'est pas obligatoire, mais j'aime appeler afin de discuter de vive voix!</p>
             </div>
             <form ref={form} className='contact-form' onSubmit={handleSubmit}>
               <div className='form'>

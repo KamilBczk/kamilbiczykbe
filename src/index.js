@@ -11,7 +11,6 @@ import Projects from './views/projects/Projects';
 import Blog from './views/blog/Blog';
 import Contact from './views/contact/Contact';
 import reportWebVitals from './reportWebVitals';
-import TestContact from './views/contact/TestContact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -26,7 +25,6 @@ root.render(
         <Route exact path="/project/:project" element={<Projects />} />
         <Route exact path="/blog" element={<Blog />} />
         <Route exact path="/contact" element={<Contact />} />
-        <Route exact path="/contacttest" element={<TestContact />} />
       </Routes>
     </BrowserRouter>
   // </HttpsRedirect>

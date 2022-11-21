@@ -27,11 +27,11 @@ function LastProjects() {
 								<div className='company-logo'>
 									<img src={bild_logo} alt="" />
 								</div>
-								<p className='p-m'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis congue neque. Phasellus non efficitur mi. Donec dolor enim, scelerisque sit amet facilisis vitae, tristique at nisl. Donec cursus risus et urna egestas laoreet at quis felis. Aenean in sem ac ante ornare dapibus ut vitae elit. Sed ornare felis ut ex rutrum gravida. Etiam mattis at lacus non congue. Class</p>
+								<p className='p-m'>Bild construct est mon premier client. Celui-ci m'a trouvé pour concevoir son site web. Au fur et à mesure du temps, nous sommes rentrés dans une collaboration plus long-termiste. <br/>Découvrez la création du site web, des cartes de visite, du merch et du van design ci-dessous.</p>
 								<div className='btn-box'>
 									<div className='btn-blue'>
 										<div className='btn-center'>
-											<a href="/project/bild-construct-srl">Découvrez le projet</a>
+											<a href="/project/bild-construct-srl">Découvrir le projet</a>
 										</div>
 									</div>
 								</div>
@@ -48,11 +48,11 @@ function LastProjects() {
 								<div className='company-logo'>
 									<img src={recre_logo} alt="" />
 								</div>
-								<p className='p-m'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis congue neque. Phasellus non efficitur mi. Donec dolor enim, scelerisque sit amet facilisis vitae, tristique at nisl. Donec cursus risus et urna egestas laoreet at quis felis. Aenean in sem ac ante ornare dapibus ut vitae elit. Sed ornare felis ut ex rutrum gravida. Etiam mattis at lacus non congue. Class</p>
+								<p className='p-m'>Ce client m'a contacté pour la création de cartes de visite. J'ai été très heureux de cette proposition, car je suis d'une grande admiration du monde de la coiffure. Le client avait déjà en avait déjà une très simpliste, c'est pourquoi j'ai conseillé de moderniser le design et de faire une carte recto verso.</p>
 								<div className='btn-box'>
 									<div className='btn-blue'>
 										<div className='btn-center'>
-											<a href="/project/recre-a-tifs">Découvrez le projet</a>
+											<a href="/project/recre-a-tifs">Découvrir le projet</a>
 										</div>
 									</div>
 								</div>
@@ -69,11 +69,11 @@ function LastProjects() {
 								<div className='company-logo'>
 									<img src={greedy_glide} alt="" />
 								</div>
-								<p className='p-m'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis congue neque. Phasellus non efficitur mi. Donec dolor enim, scelerisque sit amet facilisis vitae, tristique at nisl. Donec cursus risus et urna egestas laoreet at quis felis. Aenean in sem ac ante ornare dapibus ut vitae elit. Sed ornare felis ut ex rutrum gravida. Etiam mattis at lacus non congue. Class</p>
+								<p className='p-m'>Greedy Glide est un projet créé lors de mon BAC 1 en marketing. Au début, notre équipe désirait que nous finissions premiers de notre promotion, mais au fil du temps nous nous sommes rendu compte que celui-ci trouve son public lors des analyses micro-économiques. En clair, plus le temps passait, plus le projet paraissait sérieux, au point d'envisager de créer la start-up. Découvrez toutes les analyses, designs, et conception. </p>
 								<div className='btn-box'>
 									<div className='btn-blue'>
 										<div className='btn-center'>
-											<a href="/project/greedy-glide">Découvrez le projet</a>
+											<a href="/project/greedy-glide">Découvrir le projet</a>
 										</div>
 									</div>
 								</div>
