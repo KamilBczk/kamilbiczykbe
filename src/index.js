@@ -15,7 +15,7 @@ import TestContact from './views/contact/TestContact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <HttpsRedirect>
+  // <HttpsRedirect>
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<Navigate to="/home"/>} />
@@ -29,7 +29,7 @@ root.render(
         <Route exact path="/contacttest" element={<TestContact />} />
       </Routes>
     </BrowserRouter>
-  </HttpsRedirect>
+  // </HttpsRedirect>
 );
 
 // If you want to start measuring performance in your app, pass a function
