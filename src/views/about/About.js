@@ -64,7 +64,7 @@ function About() {
 						<div className='about-tech-grid'>
 							<div className='about-tech-grid-elem'>
 								<div className='tech-icon'>
-									<img src={tech_css} alt="" />
+									<img height={71} width={71} src={tech_css} alt="" />
 								</div>
 								<div className='tech-text'>
 									<p className='p-m'>CSS 3</p>
@@ -72,7 +72,7 @@ function About() {
 							</div>
 							<div className='about-tech-grid-elem'>
 								<div className='tech-icon'>
-									<img src={tech_js} alt="" />
+									<img height={71} width={71} src={tech_js} alt="" />
 								</div>
 								<div className='tech-text'>
 									<p className='p-m'>Javascript</p>
@@ -80,7 +80,7 @@ function About() {
 							</div>
 							<div className='about-tech-grid-elem'>
 								<div className='tech-icon'>
-									<img src={tech_react} alt="" />
+									<img height={71} width={71} src={tech_react} alt="" />
 								</div>
 								<div className='tech-text'>
 									<p className='p-m'>React</p>
@@ -88,7 +88,7 @@ function About() {
 							</div>
 							<div className='about-tech-grid-elem'>
 								<div className='tech-icon'>
-									<img src={tech_sass} alt="" />
+									<img height={71} width={71} src={tech_sass} alt="" />
 								</div>
 								<div className='tech-text'>
 									<p className='p-m'>Sass</p>
@@ -96,7 +96,7 @@ function About() {
 							</div>
 							<div className='about-tech-grid-elem'>
 								<div className='tech-icon'>
-									<img src={tech_html} alt="" />
+									<img height={71} width={71} src={tech_html} alt="" />
 								</div>
 								<div className='tech-text'>
 									<p className='p-m'>HTML 5</p>
@@ -104,7 +104,7 @@ function About() {
 							</div>
 							<div className='about-tech-grid-elem'>
 								<div className='tech-icon'>
-									<img src={tech_php} alt="" />
+									<img height={71} width={71} src={tech_php} alt="" />
 								</div>
 								<div className='tech-text'>
 									<p className='p-m'>PHP</p>
@@ -112,7 +112,7 @@ function About() {
 							</div>
 							<div className='about-tech-grid-elem'>
 								<div className='tech-icon'>
-									<img src={tech_git} alt="" />
+									<img height={71} width={71} src={tech_git} alt="" />
 								</div>
 								<div className='tech-text'>
 									<p className='p-m'>Git</p>
@@ -123,7 +123,7 @@ function About() {
 						<div className='about-tech-grid'>
 							<div className='about-tech-grid-elem'>
 								<div className='tech-icon'>
-									<img src={tech_photoshop} alt="" />
+									<img height={71} width={71} src={tech_photoshop} alt="" />
 								</div>
 								<div className='tech-text'>
 									<p className='p-m'>Adobe Phostoshop</p>
@@ -131,7 +131,7 @@ function About() {
 							</div>
 							<div className='about-tech-grid-elem'>
 								<div className='tech-icon'>
-									<img src={tech_illustrator} alt="" />
+									<img height={71} width={71} src={tech_illustrator} alt="" />
 								</div>
 								<div className='tech-text'>
 									<p className='p-m'>Adobe Illustrator</p>
@@ -139,7 +139,7 @@ function About() {
 							</div>
 							<div className='about-tech-grid-elem'>
 								<div className='tech-icon'>
-									<img src={tech_figma} alt="" />
+									<img height={71} width={71} src={tech_figma} alt="" />
 								</div>
 								<div className='tech-text'>
 									<p className='p-m'>Figma</p>
