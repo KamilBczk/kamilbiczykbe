@@ -18,7 +18,7 @@ function Blog() {
             <p className='p-m'>Depuis des années, j'adore créer et transmettre des choses qui peuvent aider la communauté. C'est à 42 que j'ai appris la nécessité de l'entraide, car c'est là que j'ai réalisé que les problèmes étaient extrêmement complexes et les solutions inexistantes. Travailler en collaboration était un des piliers. Quand j'ai été admis à 42 j'ai su qu'un de mes amis n'a pas été admis et qu'il voulait poursuivre avec le développement web à Becode, sachant que j'avais déjà des connaissances sur ce sujet je l'ai pris sous mon épaule pour le début de son parcours. Je l'aidais à se surpasser, à résoudre des problèmes,... Aujourd'hui, il cherche du travail en tant que consultant Salesforce.</p>
           </div>
           <div className='blog-grid'>
-            <a href="https://github.com/KamilBczk/NCW" target="_blank">
+            <a href="https://github.com/KamilBczk/NCW" target="_blank" rel='noreferrer'>
               <div className='blog-grid-elem'>
                   <div className='blog-grid-elem-container'>
                     <h1 className='title'>NCW - Framework CSS</h1>
@@ -27,7 +27,7 @@ function Blog() {
                   </div>
               </div>
             </a>
-            <a href="https://github.com/KamilBczk/regular-skeleton" target="_blank">
+            <a href="https://github.com/KamilBczk/regular-skeleton" target="_blank" rel='noreferrer'>
               <div className='blog-grid-elem'>
                 <div className='blog-grid-elem-container'>
                   <h1 className='title'>Basic website skeleton - php</h1>
@@ -36,7 +36,7 @@ function Blog() {
                 </div>
               </div>
             </a>
-            <a href="https://github.com/KamilBczk/minitalk-42" target="_blank">
+            <a href="https://github.com/KamilBczk/minitalk-42" target="_blank" rel='noreferrer'>
               <div className='blog-grid-elem'>
                 <div className='blog-grid-elem-container'>
                   <h1 className='title'>42 - Minitalk</h1>
@@ -45,7 +45,7 @@ function Blog() {
                 </div>
               </div>
             </a>
-            <a href="https://github.com/KamilBczk/get_next_line-42" target="_blank">
+            <a href="https://github.com/KamilBczk/get_next_line-42" target="_blank" rel='noreferrer'>
               <div className='blog-grid-elem'>
                 <div className='blog-grid-elem-container'>
                   <h1 className='title'>42 - get_next_line()</h1>
@@ -54,7 +54,7 @@ function Blog() {
                 </div>
               </div>
             </a>
-            <a href="https://github.com/KamilBczk/ft_printf-42" target="_blank">
+            <a href="https://github.com/KamilBczk/ft_printf-42" target="_blank" rel='noreferrer'>
               <div className='blog-grid-elem'>
                 <div className='blog-grid-elem-container'>
                   <h1 className='title'>42 - ft_printf()</h1>
@@ -63,7 +63,7 @@ function Blog() {
                 </div>
               </div>
             </a>
-            <a href="https://github.com/KamilBczk/Libft-42" target="_blank">
+            <a href="https://github.com/KamilBczk/Libft-42" target="_blank" rel='noreferrer'>
               <div className='blog-grid-elem'>
                 <div className='blog-grid-elem-container'>
                   <h1 className='title'>42 - Libft</h1>
@@ -72,7 +72,7 @@ function Blog() {
                 </div>
               </div>
             </a>
-            <a href="https://github.com/KamilBczk/Piscine-42" target="_blank">
+            <a href="https://github.com/KamilBczk/Piscine-42" target="_blank" rel='noreferrer'>
               <div className='blog-grid-elem'>
                 <div className='blog-grid-elem-container'>
                   <h1 className='title'>42 - Piscine</h1>

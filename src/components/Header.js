@@ -70,22 +70,22 @@ function Header() {
 									<div className='nav-socials'>
 										<ul className='nav-socials-ul'>
 											<li className='nav-socials-li'>
-												<a href="https://github.com/KamilBczk" target="_blank">
+												<a href="https://github.com/KamilBczk" target="_blank" rel='noreferrer'>
 													<Socials icon="github-white" />
 												</a>
 											</li>
 											<li className='nav-socials-li'>
-												<a href="https://www.behance.net/kamilbiczyk" target="_blank">
+												<a href="https://www.behance.net/kamilbiczyk" target="_blank" rel='noreferrer'>
 													<Socials icon="behance-white" />
 												</a>
 											</li>
 											<li className='nav-socials-li'>
-												<a href="https://www.linkedin.com/in/kamil-biczyk" target="_blank">
+												<a href="https://www.linkedin.com/in/kamil-biczyk" target="_blank" rel='noreferrer'>
 													<Socials icon="linkedin-white" />
 												</a>
 											</li>
 											<li className='nav-socials-li'>
-												<a href="https://www.instagram.com/kamil_bczk/" target="_blank">
+												<a href="https://www.instagram.com/kamil_bczk/" target="_blank" rel='noreferrer'>
 													<Socials icon="instagram-white" />
 												</a>
 											</li>

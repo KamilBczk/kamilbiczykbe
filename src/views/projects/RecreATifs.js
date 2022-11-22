@@ -35,7 +35,7 @@ function RecreATifs() {
             <p className='p-m'>La cliente voulait que je vectorise l'ancienne carte et que je la commande auprès de mon fournisseur, mais j'ai décidé de partir sur deux concepts, ce afin de lui montrer que les cartes actuelles pouvaient être améliorées. Finalement, elle a choisi le troisième concept.</p>
           </div>
           <div className='figma-100-box'>
-            <iframe width="100%" height="600" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FtQJfD5s0Gf1szwRpQF4pKQ%2FCarte-de-visite%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+            <iframe title='figma-visit-card-recre-a-tifs' width="100%" height="600" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FtQJfD5s0Gf1szwRpQF4pKQ%2FCarte-de-visite%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -45,7 +45,7 @@ function RecreATifs() {
           <div className='m-t-50'>
             <div className='btn-blue m-t-paragraph'>
               <div className='btn-center'>
-                <a target="_blank" href="https://www.behance.net/gallery/153560847/Brand-identity-Hairdresser-Rcr-a-tifs">Ce projet sur Behance</a>
+                <a target="_blank" href="https://www.behance.net/gallery/153560847/Brand-identity-Hairdresser-Rcr-a-tifs" rel='noreferrer'>Ce projet sur Behance</a>
                 <a href="/project/greedy-glide">Projet suivant</a>
               </div>
             </div>

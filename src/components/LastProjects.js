@@ -1,13 +1,11 @@
 import React from 'react'
 
 import recre_logo from '../ressources/projects/recre-a-tifs/logo.svg';
-import artenadev_logo from '../ressources/projects/artena-dev/logo.svg';
 import bild_logo from '../ressources/projects/bild-construct/logo.svg';
 import greedy_glide from '../ressources/projects/greedy-glide/logo.svg';
 
 import bild_l_p from '../ressources/projects/bild-construct/l-p.png';
 import recre_l_p from '../ressources/projects/recre-a-tifs/l-p.png';
-import artenadev_l_p from '../ressources/projects/artena-dev/l-p.png';
 import greedyglide_l_p from '../ressources/projects/greedy-glide/l-p.png';
 
 

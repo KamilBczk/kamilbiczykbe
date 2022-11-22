@@ -1,7 +1,6 @@
 import React from 'react'
 
 import bmc from '../../ressources/projects/greedy-glide/bmc.png'
-import macro from '../../ressources/projects/greedy-glide/macro.png'
 import swot from '../../ressources/projects/greedy-glide/swot.png'
 import behance from '../../ressources/projects/greedy-glide/behance.png'
 import { Helmet } from 'react-helmet'
@@ -64,7 +63,7 @@ function GreedyGlide() {
           <div className='m-t-50'>
             <div className='btn-blue m-t-paragraph'>
               <div className='btn-center'>
-                <a target="_blank" href="https://www.behance.net/gallery/153423081/Product-design-Greedy-Glide">Ce projet sur Behance</a>
+                <a target="_blank" href="https://www.behance.net/gallery/153423081/Product-design-Greedy-Glide" rel='noreferrer'>Ce projet sur Behance</a>
                 <a href="/project/bild-construct-srl">Projet suivant</a>
               </div>
             </div>

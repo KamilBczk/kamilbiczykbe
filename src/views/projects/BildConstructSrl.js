@@ -34,7 +34,7 @@ function BildConstructSrl() {
           </div>
           <div className='btn-box'>
             <div className='btn-blue'>
-                <a href="https://2019.bildconstructsrl.com/" target="_blank">Ancien site</a>
+                <a href="https://2019.bildconstructsrl.com/" target="_blank" rel='noreferrer'>Ancien site</a>
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@ function BildConstructSrl() {
           </div>
           <div className='btn-box'>
             <div className='btn-blue'>
-                <a href="https://bildconstructsrl.com/" target="_blank">Nouvelle version</a>
+                <a href="https://bildconstructsrl.com/" target="_blank" rel='noreferrer'>Nouvelle version</a>
             </div>
           </div>
           <div className='figma-100-box'>
@@ -94,7 +94,7 @@ function BildConstructSrl() {
           <div className='m-t-50'>
             <div className='btn-blue m-t-paragraph'>
               <div className='btn-center'>
-                <a target="_blank" href="https://www.behance.net/gallery/153311423/Website-Bild-Construct">Ce projet sur Behance</a>
+                <a target="_blank" href="https://www.behance.net/gallery/153311423/Website-Bild-Construct" rel='noreferrer'>Ce projet sur Behance</a>
                 <a href="/project/recre-a-tifs">Projet suivant</a>
               </div>
             </div>
