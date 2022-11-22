@@ -4,10 +4,14 @@ import bmc from '../../ressources/projects/greedy-glide/bmc.png'
 import macro from '../../ressources/projects/greedy-glide/macro.png'
 import swot from '../../ressources/projects/greedy-glide/swot.png'
 import behance from '../../ressources/projects/greedy-glide/behance.png'
+import { Helmet } from 'react-helmet'
 
 function GreedyGlide() {
   return (
     <div className='greedy'>
+      <Helmet>
+        <title>Kamil Biczyk | Greedy Glide</title>
+      </Helmet>
       <div className='wrapper'>
         <div className='container'>
           <h2 className='title-m'>Greedy Glide<span className='blue-text'>.</span></h2>

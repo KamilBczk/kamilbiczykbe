@@ -1,10 +1,14 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 import old_buisness_card from '../../ressources/projects/recre-a-tifs/old-buisness-card.png'
 
 function RecreATifs() {
   return (
     <div className='recre'>
+      <Helmet>
+        <title>Kamil Biczyk | Récré à tifs</title>
+      </Helmet>
       <div className='wrapper'>
         <div className='container'>
           <h2 className='title-m'>Récré à tifs<span className='blue-text'>.</span></h2>

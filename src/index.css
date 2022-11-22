@@ -9,16 +9,6 @@ body {
   width: 100%;
 }
 
-body::after {
-  /* position: absolute;
-  width: 1px;
-  height: 200vh;
-  left: 50%;
-  top: 0;
-  background-color: red;
-  content: ' '; */
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -44,16 +34,6 @@ a {
   max-width: 1600px;
   margin: 0 auto;
   position: relative;
-  /* background-color: aliceblue; */
-}
-
-.container::after, .container::before {
-  /* position: absolute;
-  width: 1px;
-  height: 100vh;
-  background-color: red;
-  content: ' ';
-  top: 0; */
 }
 
 .container::after {

@@ -4,10 +4,14 @@ import LastProjects from '../../components/LastProjects';
 import './Home.css';
 import face_eclipse from '../../ressources/face-eclipse.png';
 import Footer from '../../components/Footer';
+import { Helmet } from 'react-helmet';
 
 function App() {
   return (
     <div className="home-container">
+      <Helmet>
+        <title>Kamil Biczyk | Accueil</title>
+      </Helmet>
       <Header />
       <div className='first-home-wrapper'>
         <div className='container'>

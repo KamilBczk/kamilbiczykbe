@@ -15,12 +15,16 @@ import tech_illustrator from '../../ressources/about/tech/illustrator.svg';
 import tech_photoshop from '../../ressources/about/tech/photoshop.svg';
 import tech_figma from '../../ressources/about/tech/figma.svg';
 import Footer from '../../components/Footer';
+import { Helmet } from 'react-helmet';
 
 
 
 function About() {
   return (
     <div className='about-container'>
+			<Helmet>
+				<title>Kamil Biczyk | À Propos</title>
+			</Helmet>
       <Header />
       <div className='about-spec-wrapper wrapper'>
         <div className='container'>

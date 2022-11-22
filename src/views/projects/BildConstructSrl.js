@@ -1,8 +1,12 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 function BildConstructSrl() {
   return (
     <div className='bild'>
+      <Helmet>
+        <title>Kamil Biczyk | BILD CONSTRUCT</title>
+      </Helmet>
       <div className='wrapper'>
         <div className='container'>
           <h2 className='title-m'>BILD CONSTRUCT SRL<span className='blue-text'>.</span></h2>

@@ -2,6 +2,7 @@ import React, {useRef} from 'react'
 import Footer from '../../components/Footer'
 import Header from '../../components/Header'
 import emailjs from "emailjs-com"
+import { Helmet } from 'react-helmet'
 
 import './Contact.css';
 import Socials from '../../ressources/socials/Socials';
@@ -34,6 +35,9 @@ function Contact() {
   
   return (
     <div className='contact'>
+      <Helmet>
+        <title>Kamil Biczyk | Contact</title>
+      </Helmet>
       <Header />
       <div className='pop-up-contact-form active'>
         <p className='p-m'>Mail envoyé!</p>

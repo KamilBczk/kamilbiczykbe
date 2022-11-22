@@ -2,12 +2,16 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import './Portfolio.css';
 import LastProjects from '../../components/LastProjects';
+import { Helmet } from 'react-helmet';
 
 import Socials from '../../ressources/socials/Socials';
 
 function Portfolio() {
   return (
     <div className='portfolio'>
+      <Helmet>
+        <title>Kamil Biczyk | Portfolio</title>
+      </Helmet>
 			<Header />
 			<LastProjects />
       <div className='wrapper'>

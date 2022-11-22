@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import Footer from '../../components/Footer'
 import Header from '../../components/Header'
 import './Blog.css'
@@ -6,6 +7,9 @@ import './Blog.css'
 function Blog() {
   return (
     <div className='blog'>
+      <Helmet>
+        <title>Kamil Biczyk | Blog</title>
+      </Helmet>
       <Header />
       <div className='wrapper'>
         <div className='container'>
