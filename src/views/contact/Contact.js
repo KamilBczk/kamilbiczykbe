@@ -80,12 +80,12 @@ function Contact() {
                   </div>
                 </div>
                 <div className='btn-box'>
-									<div className='btn-blue'>
-										<div className='btn-center'>
-											<button className='' type="submit" href="/project/greedy-glide">Envoyer</button>
-										</div>
-									</div>
-								</div>
+                  <div className='btn-blue'>
+                    <div className='btn-center'>
+                      <button className='' type="submit" href="/project/greedy-glide">Envoyer</button>
+                    </div>
+                  </div>
+                </div>
               </div>
             </form>
           </div>
