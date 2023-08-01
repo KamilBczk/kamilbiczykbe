@@ -95,7 +95,7 @@ function BildConstructSrl() {
             <div className='btn-blue m-t-paragraph'>
               <div className='btn-center'>
                 <a target="_blank" href="https://www.behance.net/gallery/153311423/Website-Bild-Construct" rel='noreferrer'>Ce projet sur Behance</a>
-                <a href="/project/recre-a-tifs">Projet suivant</a>
+                <a href="/project/tmf-compta">Projet suivant</a>
               </div>
             </div>
           </div>

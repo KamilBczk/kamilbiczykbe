@@ -6,6 +6,7 @@ import BildConstructSrl from './BildConstructSrl';
 import RecreATifs from './RecreATifs';
 import GreedyGlide from './GreedyGlide';
 import Footer from '../../components/Footer';
+import TmfCompta from './TmfCompta';
 
 function Projects() {
 	let { project } = useParams();
@@ -34,10 +35,18 @@ function Projects() {
 				<Footer />
 			</div>
 		)
+	} else if (project === "tmf-compta") {
+		return (
+			<div className='project-container'>
+				<Header />
+				<TmfCompta />
+				<Footer />
+			</div>
+		)
 	}
   return (
     <div>
-			<h1>aaaa {project}</h1>
+			<h1>404</h1>
 		</div>
   )
 }

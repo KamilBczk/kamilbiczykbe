@@ -10,6 +10,7 @@ import Portfolio from './views/portfolio/Portfolio';
 import Projects from './views/projects/Projects';
 import Blog from './views/blog/Blog';
 import Contact from './views/contact/Contact';
+import Resume from './views/resume/Resume';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,6 +25,7 @@ root.render(
         <Route exact path="/project/:project" element={<Projects />} />
         <Route exact path="/blog" element={<Blog />} />
         <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/resume" element={<Resume />} />
       </Routes>
     </BrowserRouter>
   </HttpsRedirect>

@@ -76,6 +76,16 @@ function Portfolio() {
                 </ul>
               </div>
             </div>
+            <div className='project-grid-elem'>
+              <p className='p-m'>06</p>
+              <p className='p-m'>TMF Compta</p>
+              <p className='p-m'>Website</p>
+              <div className='p-grid-elem-btn'>
+                <ul>
+                  <li><a href="/project/tmf-compta"><Socials icon="arrow-blue" width="40" height="40" /></a></li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
